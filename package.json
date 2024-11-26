@@ -36,7 +36,7 @@
 	"dependencies": {
 		"node-ipc": "^11.1.0",
 		"@ndmtech-it/matrix-core": "^0.1.0",
-		"@hokify/agenda": "^6.3.0",
+		"@hokify/agenda": "^6.3.0"
 	},
 	"main": "matrix-scheduler"
 }
