@@ -1,0 +1,42 @@
+{
+	"name": "@ndmtech-it/matrix-scheduler",
+	"version": "0.1.0",
+	"description": "Matrix scheduler module",
+	"keywords": [
+		"matrix",
+		"module",
+		"scheduler"
+	],
+	"homepage": "https://ndmtech.it/products/matrix",
+	"bugs": {
+		"url": "https://ndmtech.it/products/matrix/issues",
+		"email": "issues@ndmtech.it"
+	},
+	"author": {
+		"name": "NDM Tech",
+		"email": "info@ndmtech.it",
+		"url": "https://ndmtech.it"
+	},
+	"funding": [
+		{
+			"type": "individual",
+			"url": "https://ndmtech.it/donate"
+		},
+		"http://paypal.me/NDMTech",
+		{
+			"type": "patreon",
+			"url": "https://www.patreon.com/NDMTech"
+		}
+	],
+	"license": "UNLICENSED",
+	"repository": {
+		"url": "https://github.com/ndmtech-it/matrix-scheduler.git"
+	},
+	"type": "module",
+	"dependencies": {
+		"node-ipc": "^11.1.0",
+		"@ndmtech-it/matrix-core": "^0.1.0",
+		"@hokify/agenda": "^6.3.0",
+	},
+	"main": "matrix-scheduler"
+}
